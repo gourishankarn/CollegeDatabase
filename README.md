@@ -1,2 +1,43 @@
 # CollegeDatabase
-It's a project Deals with college Database
+CollegeDatabase is a repositiry for college Database which Deals with basic things of college
+:x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
