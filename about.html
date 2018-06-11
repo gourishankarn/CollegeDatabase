@@ -1,0 +1,480 @@
+<html>
+<head>
+  <link src=".png" rel="icon">
+  <link href="css/slider.css" rel="stylesheet" type="text/css" media="all"  />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main-css.css">
+  <title>PES</title>
+  <style>
+  footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+li a:hover {
+    background-color: red;
+}
+.mySlides {display:none;}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+
+</style>
+
+</head>
+<body style="background-color:green">
+
+
+<ul>
+    <div>
+    <li><a href ="home.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About Us</a></li>
+      <li><a href="faq.html">Faq's</a></li>
+      <li  style="padding-left:100px;font-size:50px;"><strong><span style="color:blue;">PES</span><span style="color:red;">university</span></strong></li>
+    </div>
+
+      <div style="padding-left:250px;">
+        <li><a href="https://www.facebook.com/Askbook-699887716878821/"><img src="images/facebook.png" title="facebook" /></a></li>
+        <li><a href="https://www.twitter.com"><img src="images/twitter.png" title="twitter" /></a></li>
+        <li ><a href="https://plus.google.com/100118310135288745298"><img src="images/google.png" title="google pluse" /></a></li>
+    </div>
+  </ul>
+
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-circle w3-cyan">click Here for:Founder's vision:DR mr DORESWAMY</button>
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>founder's vision </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>
+          We realize that our students represent
+          the future of our society and we take our
+          responsibility seriously. We ensure that
+          the rock-solid foundation we help them
+          build here – both, in terms of skills
+          and values – will stand them in good
+          stead no matter which career they choose.</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-circle w3-cyan">click Here for:About pes university</button>
+  <div id="id02" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id02').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>About pes university</h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>
+          PES University, located in Bangalore,
+          India is one of the country’s leading
+          teaching and research universities.
+          The University is committed to providing
+          “education for the real world” that inspires
+           students to realize their potential. Our
+           students graduate with the ability to adapt
+           to an intellectually and technologically
+           changing environment. Over the years,
+           we have accomplished this with the participative
+          efforts of the management, staff, students and parents..</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-circle w3-cyan">click Here for:pes university faculty</button>
+  <div id="id03" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id03').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>pes university faculty </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>
+          Our faculty is our most precious resource
+          and one of the three pillars on which PES
+          rests (the other two are students and infrastructure).
+          Our faculty members develop and deliver the
+          educational programs that bring excellent students
+          to PES in the first place.</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-circle w3-cyan">click Here for:pes university infrastructure</button>
+  <div id="id04" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id04').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>pes university infrastructure </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>
+          All our campuses incorporate infrastructure
+          that matches the best in the country –
+          ensuring that students have everything
+          they need for a stimulating campus life.
+          The classrooms are planned to maximize
+          light and space and students have access
+          to the latest computing and research facilities.</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-circle w3-cyan">Click Here for :Admission </button>
+  <div id="id05" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id05').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>pes university Admission </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>
+          TODAY, THE PROGRAMS AT THE UNIVERSITY
+          ARE SOUGHT AFTER BY STUDENTS FROM AROUND
+          THE COUNTRY. LEADING INDUSTRIES CHOOSE
+          PES UNIVERSITY WHEN THEY NEED THE RIGHT
+          TALENT. ONE OF THE KEY REASONS FOR THIS
+          IS THE UNIVERSITY’S FOCUS ON ADMITTING
+          THE BEST TALENT IN INDIA AND ABROAD. WE
+          ARE PROUD OF THE TRADITION OF HIGH PERFORMER
+          STUDENTS IN CET , PESSAT AND OTHER NATIONAL
+          LEVEL ENTRANCE EXAMS PREFERRING A PES INSTITUTION.
+          THE UNIVERSITY IS COMMITTED TO EXCELLENCE IN EDUCATION
+          THAT MEETS THE EXPECTATIONS OF THE STUDENTS ASPIRING
+          FOR ENRICHING ACADEMIC AND PROFESSIONAL CAREERS.</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-circle w3-cyan">Click Here for:pes researches</button>
+  <div id="id06" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id06').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>pes university researches </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>
+          The university strongly believes in kindling
+          the interest among the students to understand
+          the concepts they study thoroughly and apply
+          them in new ways. The proactive support for
+          research based activities has helped the university
+          to attract qualified and experienced faculty.
+          Basic engineering research at PES University
+          is a systematic pursuit for greater knowledge
+          and understanding of the fundamental aspects
+          of the research domain. These efforts are rooted
+          in the observations during wide range of projects
+          handled by the students, faculty and researchers.
+          Many basic research projects have laid the foundation
+          for strengthening knowledge that lead to applications
+          over a period of time. Technology organizations have
+          urged support for initiatives basic research, mainly
+          because basic research, innovation, and development
+          are closely linked.Applied engineering research at
+          PES University is in the nature of a systematic inquiry
+          involving the practical application. Applied research
+          deals with solving practical problems and research
+          organization and industries have sponsored projects
+          that require the mix of deep domain knowledge with
+          practical orientation and advanced infrastructure.
+          The projects executed by the students, faculty and
+          researchers have met the stringent requirements of the
+          critical areas like military and aerospace.</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id08').style.display='block'" class="w3-button w3-circle w3-cyan">Click Here for:pes expertise</button>
+  <div id="id08" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id08').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>pes university expertise </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>
+          The tradition of academic excellence in
+          the university has enabled the different
+          engineering disciplines pursued in the university
+          to grow into hubs of serious technical discussions
+          and exchange of ideas. Under the traditional
+          branches of engineering the different domains
+          have carved and identity of their own and are
+          charting a path in line with the developments
+          in the field.The domains are guided by the
+          faculty and researchers. The focus of every
+          initiative at the university is the student.
+          The domains while making the best of extra-curricular
+          areas and external experts continue to result in
+          sharpening the research and technology skills of the
+          students.The students complement their curricular
+          learning with exposure to the industry like environment
+          to explore the world of ideas and innovation.
+          The theoretical background helps them to approach
+          the projects undertaken by different research domains
+          in a more systematic fashion. The guidance of the faculty
+          is critical to inspire students to go beyond the curricular
+          knowledge to create real world solutions.</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id09').style.display='block'" class="w3-button w3-circle w3-cyan">Click Here for:pes Accomplishment</button>
+  <div id="id09" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id09').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>pes university accomplishment </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>The various research domains at PES University
+                have successfully initiated projects independently
+                and in collaboration with other research institutes.
+                The funding organizations include government concerns
+                and industries. The vibrant academic environment and
+                a tradition of active participation in technical events
+                have resulted in publications in leading journals and
+                proceedings of premier conferences.
+          </b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-circle w3-cyan">Click Here for:pes researches</button>
+  <div id="id06" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id06').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>pes university researches </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>
+          The university strongly believes in kindling
+          the interest among the students to understand
+          the concepts they study thoroughly and apply
+          them in new ways. The proactive support for
+          research based activities has helped the university
+          to attract qualified and experienced faculty.
+          Basic engineering research at PES University
+          is a systematic pursuit for greater knowledge
+          and understanding of the fundamental aspects
+          of the research domain. These efforts are rooted
+          in the observations during wide range of projects
+          handled by the students, faculty and researchers.
+          Many basic research projects have laid the foundation
+          for strengthening knowledge that lead to applications
+          over a period of time. Technology organizations have
+          urged support for initiatives basic research, mainly
+          because basic research, innovation, and development
+          are closely linked.Applied engineering research at
+          PES University is in the nature of a systematic inquiry
+          involving the practical application. Applied research
+          deals with solving practical problems and research
+          organization and industries have sponsored projects
+          that require the mix of deep domain knowledge with
+          practical orientation and advanced infrastructure.
+          The projects executed by the students, faculty and
+          researchers have met the stringent requirements of the
+          critical areas like military and aerospace.</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <button style="width:1200px;" onclick="document.getElementById('id010').style.display='block'" class="w3-button w3-circle w3-cyan">Click Here for:pes resources</button>
+  <div id="id010" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id010').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>pes university resources </h2>
+      </header>
+      <div class="w3-container">
+        <pre><b>PES University ensures that the best in
+                faculty work in well equipped laboratories.
+                Each domain is guided by a domain head with
+                exceptional academic credentials and a passion
+                for research and development activities. The domain
+                head leads a research team comprising of members
+                drawn from the faculty who work closely with the students.
+                The research areas are selected taking into account
+                availability of expertise and potential industry support.
+                The students get a chance to try their hands on the latest
+                equipment and software tools.</b><pre>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>Copyright &copy; pes university</footer>
+</body>
+</html>
